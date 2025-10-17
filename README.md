@@ -8,6 +8,8 @@ Po uruchomieniu docker'a automatycznie scrapowane są dane z dołączonych artyk
 
 Do scrapowania danych została wykorzystana biblioteka playwright, ze względu na strony, które nie korzystają z SSR(pojawił się problem z dostępem do danych przy użyniu beautifulsoup4)
 
+Istnieje możliwość uruchomienia aplikacji za pomocą Docker'a, który odpowiednio zainstaluje wymagane obrazy. W tym przypadku aplikację(django) oraz wskazanego postgresql.
+
 ## Biblioteki
 
 **Djagno:** 5.2.1
@@ -27,7 +29,6 @@ Do scrapowania danych została wykorzystana biblioteka playwright, ze względu n
 **psycopg2-binary** 2.9 (nie wymagane bez dockera)
 
 ## Instalacja
-
 
 
 ```

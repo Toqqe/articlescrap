@@ -6,7 +6,7 @@ Skrypt napisany pod scrap_articles ograniczony jest jedynie do pobierania danych
 
 Po uruchomieniu docker'a automatycznie scrapowane są dane z dołączonych artykułów.
 
-
+Do scrapowania danych została wykorzystana biblioteka playwright, ze względu na strony, które nie korzystają z SSR(pojawił się problem z dostępem do danych przy użyniu beautifulsoup4)
 
 ## Biblioteki
 

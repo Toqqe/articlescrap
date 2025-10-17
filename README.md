@@ -66,7 +66,7 @@ docker compose up
 #### Pobierz artykuł o danym ID
 
 ```http
-  GET /api/v1/article/{id}
+  GET /api/v1/articles/{id}
 ```
 
 | Parametr | Typ     | Opis                       |
